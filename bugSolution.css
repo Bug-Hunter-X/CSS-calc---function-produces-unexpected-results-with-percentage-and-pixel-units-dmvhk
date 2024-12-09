@@ -1,0 +1,12 @@
+/* bugSolution.css */
+/* Instead of using calc() with percentages and pixels, consider using viewport units (vw) for more consistent results across different screen sizes. */
+.element {
+  width: 49vw; /* Adjust as needed to approximate the desired result */
+  margin: 0 5px;
+}
+
+/* Alternatively, if you need precise pixel measurements, avoid using percentages altogether and work with fixed pixel values. */
+/* .element { width: 490px; } */
+
+/* In some cases, applying the calculation to the margin might provide a better solution than setting it directly to width. */
+/* .element { margin-left: calc(50% - 10px); margin-right: calc(50% - 10px); } */
